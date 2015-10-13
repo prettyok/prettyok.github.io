@@ -15,13 +15,35 @@ header img {
     background-color: brown;
     color: bisque;
     font-size: 1.25em;
-    font-family:"Courier";
+    font-family: "Courier";
     margin-right: 3px;
     padding: 3px 5px;
 }
 
 h1 {
     float: left;
-    font-family:"Courier";
+    font-family: "Courier";
     margin-left: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Courier";
+    font-size: 3em;
+}
+
+.big-important-title {
+    clear: both;
+    background-image: url('../HAAM-img/guitar-neck.jpg');
+    padding: 250px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+p {
+font-family: sans-serif;
+    font-size: 1.5em;
+    color: black;
 }
