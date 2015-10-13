@@ -1,7 +1,27 @@
 nav {
-float: right;
+    margin-top: 26px;
+    float: right;
 }
-header img
-{width: 75px;
+
+header img {
+    float: left;
+    width: 75px;
     height: 75px;
+}
+
+.nav-button {
+    width: 50px;
+    height: 30px;
+    background-color: brown;
+    color: bisque;
+    font-size: 1.25em;
+    font-family:"Courier";
+    margin-right: 3px;
+    padding: 3px 5px;
+}
+
+h1 {
+    float: left;
+    font-family:"Courier";
+    margin-left: 5px;
 }
