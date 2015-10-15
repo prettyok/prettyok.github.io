@@ -9,6 +9,12 @@ header img {
     height: 75px;
 }
 
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .nav-button {
     width: 50px;
     height: 30px;
@@ -16,6 +22,7 @@ header img {
     color: bisque;
     font-size: 1.25em;
     font-family: "Courier";
+    text-decoration: none;
     margin-right: 3px;
     padding: 3px 5px;
 }
@@ -23,13 +30,13 @@ header img {
 h1 {
     float: left;
     font-family: "Courier";
-    margin-left: 5px;
+    margin-left: 5em;
 }
 
 h2 {
     text-align: center;
     font-family: "Courier";
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .big-important-title {
@@ -42,8 +49,51 @@ h2 {
     text-align: center;
     color: #fff;
 }
+
 p {
-font-family: sans-serif;
+    font-family: sans-serif;
     font-size: 1.5em;
     color: black;
+}
+
+.div1 {
+    margin: 20px;
+    float: left;
+}
+
+.div1 img {
+    float: left;
+    width: 350px;
+    height: 275px;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.we-provide {
+    float: right;
+    width: 65%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.fourcolumn {
+    background-color: darkgray;
+    width: 100%;
+}
+
+.fourcolumn img {
+    padding-left: 75px;
+    width: 75px;
+    height: 75px;
+}
+
+.fourcolumn h4 {
+font-size: 2em;
+}
+
+.div2 {
+    float: left;
+    width: 24%
 }
