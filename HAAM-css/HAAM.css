@@ -78,7 +78,6 @@ h3 {
     width: 65%;
     height: auto;
     margin-left: 10px;
-    
 }
 
 .fourcolumn {
@@ -88,17 +87,18 @@ h3 {
 }
 
 .fourcolumn p {
-font-size: 1em;
+    font-size: 1em;
     text-align: justify;
 }
+
 .fourcolumn img {
     width: 160px;
     height: 130px;
 }
 
 .fourcolumn h4 {
-font-size: 2em;
-    text-align:center;
+    font-size: 2em;
+    text-align: center;
     font-family: "Courier";
 }
 
@@ -107,4 +107,19 @@ font-size: 2em;
     margin-right: 12px;
     width: 24%;
     text-align: center;
+}
+
+.event-photos 
+{
+float:left;
+    height: auto;
+}
+
+.event-photos img {
+    padding-right: 10px;
+    padding-left: 20px;
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
