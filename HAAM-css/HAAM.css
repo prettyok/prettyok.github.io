@@ -69,6 +69,7 @@ p {
 
 h3 {
     font-size: 3em;
+    font-family: "Courier";
 }
 
 .we-provide {
@@ -79,21 +80,28 @@ h3 {
 }
 
 .fourcolumn {
+    text-align: center;
     background-color: darkgray;
     width: 100%;
 }
 
+.fourcolumn p {
+font-size: 1em;
+    text-align: justify;
+}
 .fourcolumn img {
-    padding-left: 75px;
     width: 75px;
     height: 75px;
 }
 
 .fourcolumn h4 {
 font-size: 2em;
+    text-align:center;
 }
 
 .div2 {
     float: left;
-    width: 24%
+    margin-right: 12px;
+    width: 24%;
+    text-align: center;
 }
