@@ -25,6 +25,13 @@ header img {
     text-decoration: none;
     margin-right: 3px;
     padding: 3px 5px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: bisque;
+    color: brown;
+    font-weight: 700;
 }
 
 h1 {
@@ -109,9 +116,8 @@ h3 {
     text-align: center;
 }
 
-.event-photos 
-{
-float:left;
+.event-photos {
+    float: left;
     height: auto;
 }
 
@@ -122,4 +128,39 @@ float:left;
     height: 300px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.event-photos p {
+    text-align: center;
+}
+
+.lastcontainer {
+    clear: both;
+    background-image: url('../HAAM-img/GaryClark.jpeg');
+    padding: 250px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.lastcontainer p {
+    color: beige;
+}
+
+.lastcontainerbutton {
+    float: left;
+    width: 200px;
+    height: 80px;
+    background-color: brown;
+    color: bisque;
+    font-size: 2em;
+    font-family: "Courier";
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 120px;
+    margin-left: 17px;
+    border-radius: 10px;
 }
