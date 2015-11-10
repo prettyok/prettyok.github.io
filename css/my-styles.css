@@ -1,0 +1,75 @@
+.guitar-hero {
+    background-image: url(/JRfinal-project/img/blackandwhiteguitar.jpg);
+    background-repeat: no-repeat center top scroll;
+    background-size: 100% auto;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    top: 20;
+    padding-bottom: 44%;
+}
+
+.btn-success {
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+.guitar-hero h1 {
+    margin-top: 60px;
+}
+
+
+/*This is the second container*/
+
+.second-container {
+    height: 200px;
+    padding: 200 0;
+    margin: 0 0;
+}
+
+.red-shirt-photo {}
+
+
+/*This is the section with images of CD covers*/
+
+.recordings {
+    background-color: #e8e8e8;
+}
+
+.respond {
+    margin-top: 7px;
+}
+
+h5 {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.recordings btn-success {s
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contact-info {
+    background-color: #e8e8e8;
+    height: 400px;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-twitter {
+    background-color: #4099ff;
+    color: white;
+    font-weight: 500;
+    width: 198.688px;
+    margin-right: 20px;
+}
+
+.fa-twitter {
+    margin: auto;
+}
