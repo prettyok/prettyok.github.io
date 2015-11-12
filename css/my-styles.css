@@ -1,13 +1,32 @@
+* {
+    font-family: 'Verdana' sans-serif;
+}
+
+
+/*Navbar stuff*/
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-right {
+    font-weight: 700;
+}
+
+
+/*This is the guitar-hero div*/
+
 .guitar-hero {
     background-image: url(/JRfinal-project/img/blackandwhiteguitar.jpg);
-    background-repeat: no-repeat center top scroll;
+    background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
     color: #fff;
     position: relative;
     overflow: hidden;
     top: 20;
-    padding-bottom: 44%;
+    padding-bottom: 15%;
+    padding-top: 15%
 }
 
 .btn-success {
@@ -19,16 +38,27 @@
     margin-top: 60px;
 }
 
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:450px;
+   top:450px;
+   margin-top:-450px;
+}
+
+
 
 /*This is the second container*/
 
 .second-container {
     height: 200px;
-    padding: 200 0;
-    margin: 0 0;
+    margin: 0;
 }
 
-.red-shirt-photo {}
+.red-shirt-photo {
+    padding: 0;
+}
 
 
 /*This is the section with images of CD covers*/
@@ -46,7 +76,7 @@ h5 {
     line-height: 1.5;
 }
 
-.recordings btn-success {s
+.recordings btn-success {
     margin-top: 20px;
     font-size: 18px;
 }
@@ -66,10 +96,18 @@ h5 {
     background-color: #4099ff;
     color: white;
     font-weight: 500;
-    width: 198.688px;
-    margin-right: 20px;
+    
+    margin-left: 10px;
 }
 
 .fa-twitter {
     margin: auto;
+}
+
+.contact-info {
+    padding-top: 10px;
+}
+
+.hide_me {
+    visibility: hidden;
 }
