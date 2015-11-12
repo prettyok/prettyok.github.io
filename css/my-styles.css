@@ -39,14 +39,13 @@
 }
 
 .overlay {
-   background:transparent; 
-   position:relative; 
-   width:640px;
-   height:450px;
-   top:450px;
-   margin-top:-450px;
+    background: transparent;
+    position: relative;
+    width: 640px;
+    height: 450px;
+    top: 450px;
+    margin-top: -450px;
 }
-
 
 
 /*This is the second container*/
@@ -96,7 +95,6 @@ h5 {
     background-color: #4099ff;
     color: white;
     font-weight: 500;
-    
     margin-left: 10px;
 }
 
