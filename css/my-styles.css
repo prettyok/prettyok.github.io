@@ -43,22 +43,14 @@
     padding-right: 0px;
 }
 
-/*.overlay {
-    background: transparent;
-    position: relative;
-    width: 640px;
-    height: 450px;
-    top: 450px;
-    margin-top: -450px;
-}
-*/
 iframe {
     pointer-events: none;
 }
 
 .next-gig h2 h3 {
-    padding-left: 16px;
+    padding-left: 20px;
 }
+
 
 /*This is the second container*/
 
