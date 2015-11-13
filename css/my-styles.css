@@ -43,7 +43,7 @@
     padding-right: 0px;
 }
 
-.overlay {
+/*.overlay {
     background: transparent;
     position: relative;
     width: 640px;
@@ -51,7 +51,14 @@
     top: 450px;
     margin-top: -450px;
 }
+*/
+iframe {
+    pointer-events: none;
+}
 
+.next-gig h2 h3 {
+    padding-left: 16px;
+}
 
 /*This is the second container*/
 
