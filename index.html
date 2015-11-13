@@ -11,7 +11,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/kalendar.css" rel="stylesheet">
+
     <link href="css/social-buttons-3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -19,47 +19,7 @@
 
     <link href="css/my-styles.css" rel="stylesheet">
     <!--Here's the navbar-->
-    <div class="container-fluid">
-        <div class="row">
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Jenny Reynolds</a>
-                    </div>
 
-                    <!-- Collect the nav links for toggling -->
-                    <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Bio</a>
-                            </li>
-                            <li>
-                                <a href="#">The Reynolds Wrap</a>
-                            </li>
-                            <li>
-                                <a href="#">Recordings</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container -->
-            </nav>
-        </div>
-    </div>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -69,33 +29,72 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Jenny Reynolds</a>
+                </div>
+
+                <!-- Collect the nav links for toggling -->
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Bio</a>
+                        </li>
+                        <li>
+                            <a href="#">The Reynolds Wrap</a>
+                        </li>
+                        <li>
+                            <a href="#">Recordings</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+    </div>
     <!--This is the guitar-hero (HAHAHAHA  sorry...couldn't resist!!) with b/w background photo-->
     <div class="container-fluid">
-        <div class="row">
+        
             <div class="guitar-hero text-center">
                 <h1 class="animated bounceInLeft">Jenny Reynolds</h1>
                 <h2>Americana Singer-Songwriter, Fingerstyle Guitarist</h2>
                 <a class="btn btn-success" href="https://www.sonicbids.com/band/jennyreynolds/">Electronic Press Kit</a>
             </div>
-        </div>
+        
     </div>
 
     <!--This is the Where's the Next Gig and Google Map div, only visable on phone-->
+<div class="row">
     <div class="container-fluid next-gig visible-xs col-xs-12">
-        <div class="row">
+        
             <h2>Where's the next gig?</h2>
             <a href="http://www.strangebrewloungeside.com/"><h3>Strange Brew Lounge Side</h3></a>
         </div>
     </div>
-
+<div class="row">
     <div class="fluid-wrapper next-gig-map visible-xs col-xs-12">
-        <div class="row">
+        
             <div class="overlay" onClick="style.pointerEvents='none'"></div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1729.8143147586554!2d-97.79956259540084!3d30.21827221186348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865b4b457980e165%3A0x9edcf954073bedf9!2s5326+Manchaca+Rd%2C+Austin%2C+TX+78745!5e0!3m2!1sen!2sus!4v1446998634423" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-    </div>
-    <!--This is the Google Kalendar Div-->
-    <div class="kalendar">
     </div>
 
     <!--This is the "shows" container-->
@@ -247,7 +246,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="kalendar.js"></script>
+
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>

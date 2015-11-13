@@ -59,7 +59,9 @@
     padding: 0;
 }
 
-
+.table {
+    font-size: 16px;
+}
 /*This is the section with images of CD covers*/
 
 .recordings {
@@ -105,8 +107,3 @@ h5 {
 .contact-info {
     padding-top: 10px;
 }
-
-
-/*.hide_me {
-    visibility: hidden;
-}*/
