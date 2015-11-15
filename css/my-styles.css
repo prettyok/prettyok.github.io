@@ -16,7 +16,7 @@
 
 /*This is the guitar-hero div*/
 
-.guitar-hero {
+#guitar-hero {
     background-image: url(../img/blackandwhiteguitar.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -54,7 +54,7 @@ iframe {
 
 /*This is the second container*/
 
-.second-container {
+#shows {
     height: 150px;
     margin: 0;
 }
@@ -70,7 +70,7 @@ iframe {
 
 /*This is the section with images of CD covers*/
 
-.recordings {
+#recordings {
     background-color: #e8e8e8;
 }
 
@@ -100,9 +100,10 @@ h4 {
     line-height: 190%;
 }
 
-.contact-info {
+#contact-info {
     background-color: #e8e8e8;
     height: 400px;
+    padding-top: 10px;
 }
 
 .btn-facebook {
@@ -120,8 +121,4 @@ h4 {
 
 .fa-twitter {
     margin: auto;
-}
-
-.contact-info {
-    padding-top: 10px;
 }

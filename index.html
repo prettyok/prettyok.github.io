@@ -20,6 +20,7 @@
     <link href="css/my-styles.css" rel="stylesheet">
     <!--Here's the navbar-->
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,19 +49,19 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
 
-                            <a href="#">Home</a>
+                            <a href="#guitar-hero">Home</a>
                         </li>
                         <li>
-                            <a href="#">Bio</a>
+                            <a href="#shows">Shows</a>
                         </li>
                         <li>
-                            <a href="#">The Reynolds Wrap</a>
+                            <a href="#recordings">Recordings</a>
                         </li>
                         <li>
-                            <a href="#">Recordings</a>
+                            <a href="#videos">YouTube</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#contact-info">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +74,7 @@
     <!--This is the guitar-hero (HAHAHAHA  sorry...couldn't resist!!) with b/w background photo-->
     <div class="container-fluid">
 
-        <div class="guitar-hero text-center">
+        <div id="guitar-hero" class="text-center">
             <h1 class="animated bounceInLeft">Jenny Reynolds</h1>
             <h2>Americana Singer-Songwriter, Fingerstyle Guitarist</h2>
             <a class="btn btn-success" href="https://www.sonicbids.com/band/jennyreynolds/">Electronic Press Kit</a>
@@ -82,21 +83,25 @@
     </div>
 
     <!--This is the Where's the Next Gig and Google Map div, only visable on phone-->
-    <div class="row">
-        <div class="container-fluid next-gig visible-xs col-xs-12 text-center">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container-fluid next-gig visible-xs col-xs-12 text-center">
 
-            <h2>Where's the next gig?</h2>
-            <a href="http://www.strangebrewloungeside.com/"><h3>Strange Brew Lounge Side</h3></a>
+                <h2>Where's the next gig?</h2>
+                <a href="http://www.strangebrewloungeside.com/"><h3>Strange Brew Lounge Side</h3></a>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="fluid-wrapper next-gig-map visible-xs col-xs-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1729.8143147586554!2d-97.79956259540084!3d30.21827221186348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865b4b457980e165%3A0x9edcf954073bedf9!2s5326+Manchaca+Rd%2C+Austin%2C+TX+78745!5e0!3m2!1sen!2sus!4v1446998634423" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen style="pointer-events:none"></iframe>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="fluid-wrapper next-gig-map visible-xs col-xs-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1729.8143147586554!2d-97.79956259540084!3d30.21827221186348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865b4b457980e165%3A0x9edcf954073bedf9!2s5326+Manchaca+Rd%2C+Austin%2C+TX+78745!5e0!3m2!1sen!2sus!4v1446998634423" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen style="pointer-events:none"></iframe>
+            </div>
         </div>
     </div>
 
     <!--This is the "shows" container-->
-    <div class="container-fluid">
+    <div id="shows" class="container-fluid">
         <div class="row">
             <div class="second-container">
                 <div class="red-shirt-photo  col-sm-4 col-xs-12"><img class="img-responsive" src="img/red-shirt.jpg"></div>
@@ -176,7 +181,7 @@
     <!--This is the div with images on CD covers-->
     <div class="container-fluid">
         <div class="row">
-            <div class="recordings col-md-12 col-sm-12 col-xs-12">
+            <div id="recordings" class=" col-md-12 col-sm-12 col-xs-12">
                 <div class="next col-md-3 col-sm-6 col-xs-12 text-center"><img src="img/cd-next.jpg" class="img-thumbnail" alt="Next to You" width="204" height="136">
                     <h3>Next To You</h3>
                     <h5>(2008) Co-produced by Scrappy Jud Newcomb and Mark Addison.  Features Ruthie Foster, Warren Hood and Rock n' Roll Hall of Famer Ian McLagan.</h5><a class="btn btn-success" href="https://www.cdbaby.com/cd/jennyreynolds2">Buy</a><a class="btn btn-success" href="https://itunes.apple.com/us/album/next-to-you/id276858439">Download</a></div>
@@ -198,7 +203,7 @@
     </div>
 
     <!--This is the container with the YouTube videos-->
-    <div class="container">
+    <div id="videos" class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
 
@@ -206,7 +211,7 @@
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jGWu2qHRjow" frameborder="0" allowfullscreen></iframe>"></iframe>
                 </div>
-                <h4>Scrappy Jud Newcomb and Brian Standefer at Austin's Strange Brew Lounge Side</h4></div>
+                <h4>Scrappy Jud Newcomb and Brian Standefer at Austin's Strange Brew Lounge Side (videos by Ron Baker)</h4></div>
 
             <div class="col-md-6 col-sm-12">
                 <h2>"Exhale"</h2>
@@ -216,10 +221,10 @@
             </div>
         </div>
     </div>
-    <!--This is the contact info and social div-->
-    <div class="container-fluid">
+    <!--This is the contact info and social media div-->
+    <div id="contact-info" class="container-fluid">
 
-        <div class="contact-info text-center">
+        <div class=" text-center">
             <h1>Find me...</h1>
             <h3>Snail Mail: </h3>
             <h3>P.O. Box 300793</h3>
