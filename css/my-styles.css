@@ -25,8 +25,8 @@
     position: relative;
     overflow: hidden;
     top: 20;
-    padding-bottom: 15%;
-    padding-top: 15%
+    padding-bottom: 25%;
+    padding-top: 15%;
 }
 
 .btn-success {
@@ -63,6 +63,11 @@ iframe {
     padding: 0;
 }
 
+
+/*#bio-highlights {
+    font-size: 1.5em;
+}*/
+
 .table {
     font-size: 16px;
 }
@@ -71,7 +76,7 @@ iframe {
 /*This is the section with images of CD covers*/
 
 #recordings {
-    background-color: #e8e8e8;
+    background-color: white;
 }
 
 .respond {
@@ -89,19 +94,28 @@ h5 {
 }
 
 .recordings .next .btn-success {
-    margin-top: 55px;
+    margin-top: 60px;
 }
 
 .recordings .bet .btn-success {
-    margin-top: 55px;
+    margin-top: 60px;
 }
 
 h4 {
     line-height: 190%;
+    padding-left: 25px;
+}
+
+
+/*This is the div with YouTube videos*/
+
+#videos {
+    background-color: #e8e8e8;
+    padding-left: 15px;
 }
 
 #contact-info {
-    background-color: #e8e8e8;
+    background-color: #666;
     height: 400px;
     padding-top: 10px;
 }
