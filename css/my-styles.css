@@ -70,6 +70,7 @@ iframe {
 
 .table {
     font-size: 16px;
+    font-family: serif;
 }
 
 
@@ -77,10 +78,6 @@ iframe {
 
 #recordings {
     background-color: white;
-}
-
-.respond {
-    margin-top: 7px;
 }
 
 h5 {
@@ -93,12 +90,28 @@ h5 {
     font-size: 18px;
 }
 
+.recordings .next {
+    padding-left: 20px;
+}
+
 .recordings .next .btn-success {
     margin-top: 60px;
 }
 
 .recordings .bet .btn-success {
     margin-top: 60px;
+}
+
+.recordings .respond .btn-success {
+    margin-top: 45px;
+}
+
+.recordings .respond h5 {
+    margin-top: 5px;
+}
+
+.respond {
+    margin-top: 0px;
 }
 
 h4 {
@@ -112,7 +125,15 @@ h4 {
 #videos {
     background-color: #e8e8e8;
     padding-left: 15px;
+    margin-top: 20px;
 }
+
+.embed-responsive {
+    margin: 10px;
+}
+
+
+/*This is the contact info div*/
 
 #contact-info {
     background-color: #666;
