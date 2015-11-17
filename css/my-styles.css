@@ -19,7 +19,7 @@
 #guitar-hero {
     background-image: url(../img/blackandwhiteguitar.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center;
     color: #fff;
     position: relative;
@@ -38,17 +38,12 @@
     margin-top: 60px;
 }
 
-.container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 iframe {
     pointer-events: none;
 }
 
 .next-gig h2 h3 {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 
 
@@ -91,7 +86,7 @@ h5 {
 }
 
 .recordings .next {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 
 .recordings .next .btn-success {
@@ -116,7 +111,7 @@ h5 {
 
 h4 {
     line-height: 190%;
-    padding-left: 25px;
+    /*padding-left: 25px;*/
 }
 
 
@@ -124,7 +119,6 @@ h4 {
 
 #videos {
     background-color: #e8e8e8;
-    padding-left: 15px;
     margin-top: 20px;
 }
 
@@ -151,9 +145,12 @@ h4 {
     background-color: #4099ff;
     color: white;
     font-weight: 500;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .fa-twitter {
     margin: auto;
 }
+.btn-action {
+    padding: 10px 15px;
+    color: #fff;
