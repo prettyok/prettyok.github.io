@@ -1,0 +1,47 @@
+    /*This is the guitar-hero div*/
+    
+    #hero {
+        background-image: url(../img/Gal-Dangit-bridge-photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+        margin: 0px;
+        padding-top: 20px;
+        height: 800px;
+        /*width: auto;*/
+    }
+    
+    .btn-primary {
+        margin: 18px;
+        font-size: 14px;
+        color: white;
+        background-color: #3b5998;
+        width: 200px;
+    }
+    
+    .btn-secondary {
+        font-size: 18px;
+        padding-right: 5px;
+        height: 35px;
+        width: 180px;
+    }
+    
+    .fa-envelope:before {
+        content: "\f0e0";
+        padding-right: 25px;
+    }
+    
+    #hero h1 {
+        color: #ffcc00;
+        font-family: 'Condiment', cursive;
+        font-size: 5em;
+        margin-top: 500px;
+    }
+    
+    #hero h2 {
+        color: #fff;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
